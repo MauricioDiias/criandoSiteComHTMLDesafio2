@@ -1,47 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template - Utilizar como modelo</title>
-    <link rel="stylesheet" href="base.css">
-</head>
-<body>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
-              <li><a href="./paginaPrincipal.html">Página Principal</a></li>
-              <li><a href="./sobreClinica.html">Sobre a Clinica</a></li>
-              <li>
-                <a href="./horarioDeAtendimento.html">Horário de Atendimento</a>
-              </li>
-              <li><a href="#">Contato </a></li>
-            </ul>
-          </div>
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="./paginaPrincipal.html">Página Principal</a></li>
+          <li><a href="./sobreClinica.html">Sobre a Clinica</a></li>
+          <li>
+            <a href="./horarioDeAtendimento.html">Horário de Atendimento</a>
+          </li>
+          <li><a href="#">Contato </a></li>
+        </ul>
+      </div>
 
-        <div class="main">
-            <div class="header">
-                <!-- Aqui vai o seu header -->
-                <img
-                  src="./imagens/CLÍNICA BOM CORAÇÃO.png"
-                  alt="Banner Clínica"
-                  width="100%"
-                  height="100%"
-                />
-              </div>
-    
-            <div class="content">
-                <h1>Contato</h1>
-                <!-- Aqui vai o seu conteúdo -->
-            </div>
-    
-            <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
-            </div>
+      <div class="main">
+        <div class="header">
+          <!-- Aqui vai o seu header -->
+          <img
+            src="./imagens/CLÍNICA BOM CORAÇÃO.png"
+            alt="Banner Clínica"
+            width="100%"
+            height="100%"
+          />
         </div>
+
+        <div class="content">
+          <h1>Contato</h1>
+          <!-- Aqui vai o seu conteúdo -->
+
+          <p><strong>Telefone:</strong> (86) 1234-5678</p>
+          <p><strong>Celular:</strong> (86) 9876-5432</p>
+          <p><strong>WhatsApp:</strong> (86) 9876-5432</p>
+          <p><strong>Email:</strong> clinicabomcoracao@gmail.com</p>
+          <p>
+            <strong>Endereço:</strong> Rua das Flores, 123, Centro, Luís Correia
+            - PI, 64220-000
+          </p>
+          <p>
+            <strong>Horário de Funcionamento:</strong> Segunda a Domingo, das 8h
+            às 18h
+          </p>
+
+          <h2>Localização</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.9659929280055!2d-42.71085358468705!3d-3.469965744238866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79a5adf10dc2b555%3A0x5cd8d741ab55c5a4!2sLu%C3%ADs%20Correia%2C%20Piau%C3%AD!5e0!3m2!1spt-BR!2sbr!4v1614786229131!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <h2>Formulário de Contato</h2>
+          <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" />
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" />
+
+            <label for="subject">Assunto</label>
+            <input type="text" id="subject" name="subject" />
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </form>
+        </div>
+
+        <div class="footer">
+          <!-- Aqui vai o seu rodapé -->
+          <div>
+            <p>📞 <strong>Telefone:</strong> (86) 1234-5678</p>
+            <p>📧 <strong>Email:</strong> clinicabomcoracao@gmail.com</p>
+            <p>
+              📍 <strong>Endereço:</strong> Rua das Flores, 123, Centro, Luís
+              Correia - PI, 64220-000
+            </p>
+            <p>
+              ⏰ <strong>Horário de Funcionamento:</strong> Segunda a Domingo, das
+              8h às 18h
+            </p>
+          </div>
+          <div>
+            <h3>Siga-nos</h3>
+            <a href="https://www.facebook.com/clinicabomcoracao">Facebook</a> |
+            <a href="https://www.instagram.com/clinicabomcoracao">Instagram</a>
+            |
+            <a href="https://www.twitter.com/clinicabomcoracao">Twitter</a>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
